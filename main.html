@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="logo">
+      <i class="fa-brands fa-spotify"></i>
+      <span>Spotify</span>
+    </div>
+
+    <ul class="menu">
+      <li class="active"><i class="fa-solid fa-house"></i> Home</li>
+      <li><i class="fa-solid fa-magnifying-glass"></i> Search</li>
+      <li><i class="fa-solid fa-book"></i> Your Library</li>
+    </ul>
+
+    <h4>PLAYLISTS</h4>
+
+    <ul class="playlist">
+      <li><i class="fa-solid fa-plus"></i> Create Playlist</li>
+      <li><i class="fa-solid fa-heart"></i> Liked Songs</li>
+    </ul>
+
+    <div class="playlists-name">
+      <p>2026 Greatest Songs</p>
+      <p>At Work</p>
+      <p>Playlist #2</p>
+      <p>Playlist #4</p>
+      <p>RapCaviar</p>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+
+    <!-- Top Bar -->
+    <div class="topbar">
+      <div class="arrows">
+        <button><i class="fa-solid fa-chevron-left"></i></button>
+        <button><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+
+      <div class="profile">
+        <img src="image/profile-1.png" alt="profile" />
+        <span>vyshnav</span>
+      </div>
+    </div>
+
+    <!-- Greeting -->
+    <h1>Good morning</h1>
+
+    <!-- Playlist Grid -->
+    <div class="grid-playlists">
+
+      <div class="playlist-card">
+        <img src="image/getup_list.png" />
+        <span>The Get Up</span>
+      </div>
+
+      <div class="playlist-card">
+        <img src="image/time_list.png" />
+        <span>Time Capsule</span>
+      </div>
+
+      <div class="playlist-card">
+        <img src="image/dj_list.png" />
+        <span>DJ</span>
+      </div>
+
+      <div class="playlist-card">
+        <img src="image/drive_list.png" />
+        <span>Daily Drive</span>
+      </div>
+
+      <div class="playlist-card">
+        <img src="image/repeat_list.png" />
+        <span>On Repeat</span>
+      </div>
+
+      <div class="playlist-card">
+        <img src="image/dailst_list.png" />
+        <span>Daylist</span>
+      </div>
+
+    </div>
+
+    <!-- Heavy Rotation -->
+    <div class="section-header">
+      <h2>Your heavy rotation</h2>
+      <span>SEE MORE</span>
+    </div>
+
+    <div class="music-row">
+
+      <div class="music-card">
+        <img src="image/happy.png" />
+        <h3>Be Happy</h3>
+        <p>Gene Evaro Jr.</p>
+      </div>
+
+      <div class="music-card">
+        <img src="image/days.png" />
+        <h3>Some Days</h3>
+        <p>Ira Wolf</p>
+      </div>
+
+      <div class="music-card">
+        <img src="image/workout.png" />
+        <h3>Workout</h3>
+        <p></p>
+      </div>
+
+      <div class="music-card">
+        <img src="image/runway.png" />
+        <h3>Runaway</h3>
+        <p>Beast Coast</p>
+      </div>
+
+      <div class="music-card">
+        <img src="image/car.png" />
+        <h3>In Your Car</h3>
+        <p>No Aloha</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Music Player -->
+  <div class="player">
+
+    <div class="song-info">
+      <img src="https://picsum.photos/60?12" />
+      <div>
+        <h4>Domestic Sweater</h4>
+        <p>Wardle</p>
+      </div>
+    </div>
+
+    <div class="controls">
+      <div class="icons">
+        <i class="fa-solid fa-shuffle"></i>
+        <i class="fa-solid fa-backward-step"></i>
+        <button><i class="fa-solid fa-play"></i></button>
+        <i class="fa-solid fa-forward-step"></i>
+        <i class="fa-solid fa-repeat"></i>
+      </div>
+
+      <div class="progress">
+        <span>0:00</span>
+        <div class="bar">
+          <div class="fill"></div>
+        </div>
+        <span>4:25</span>
+      </div>
+    </div>
+
+    <div class="volume">
+      <i class="fa-solid fa-volume-high"></i>
+      <input type="range" />
+    </div>
+
+  </div>
+
+</body>
+</html>
